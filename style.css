@@ -1,0 +1,114 @@
+/****************   GLOBAL LAYOUT  *************/
+* { 
+  box-sizing: border-box;
+}
+
+body {
+	background-color: #f4f4f4;
+	text-align: center;
+	
+}
+/************ TEXT STYLES	************/
+h1 {
+	font-family: 'Enriqueta', serif;
+}
+
+h2 {
+	font-family: 'Enriqueta', serif;
+}
+
+h3 {
+font-family: 'Enriqueta', serif;
+}
+
+p {
+	font-family: 'Enriqueta', serif;
+
+}
+
+.signiture {
+	font-family: 'Enriqueta', serif;
+
+}
+
+/************   LINK STYLES   **************/
+a {
+	text-decoration: none;
+}
+a:hover {
+	color: gray;
+}
+/************ 	NAVIGATION AND HEADER ************/
+.student-name {
+	font-size: 28px;
+}
+
+.main-nav {
+	padding:0;
+	margin: 0;
+	
+}
+
+.main-nav li {
+	font-weight: 700;
+	font-size: 18px;
+	padding: .75em;
+	margin-top: .5em;
+	list-style-type: none;
+	background-color: white;
+	
+
+}
+.main-header {
+	padding: 2em 1em;
+}
+
+.profile-image {
+ 	width: 16em;
+ 	margin: 1em;
+}
+
+/************   MAIN CONTEN  **********/
+
+.wraper {
+	background: white;
+	max-width: 100%;
+	
+}
+
+img {
+	width: 20em;
+}
+
+.container {
+padding: 0 1.25em;
+margin: 0;
+}
+
+/************   FOOTER  **********/
+
+footer {
+	border-top: solid 1px gray;
+}
+ .signiture {
+ display: inline-block;
+ float: left;
+ padding-left: 1em;
+ }
+
+ .top {
+ 	display: inline-block;
+ 	float: right;
+ 	padding-right: 1em;
+ 	
+ }
+
+
+
+
+
+
+
+
+
+
