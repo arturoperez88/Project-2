@@ -1,6 +1,6 @@
 /****************   GLOBAL LAYOUT  *************/
 * { 
-  	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -9,18 +9,16 @@ body {
 	margin: 0;	
 }
 /************ TEXT STYLES	************/
-
 h1, h2, h3, p, li,  .signiture {
 	font-family: 'Orbitron', sans-serif;
 }
-
 .quote {
 	color: goldenrod;
 	text-shadow: 2px 2px 2px #000;
 }
 
-/************   LINK STYLES   **************/
 
+/************   LINK STYLES   **************/
 a {
 	text-decoration: none;
 	color: black;
@@ -28,9 +26,7 @@ a {
 a:hover {
 	color: gray;
 }
-
 /************ 	NAVIGATION AND HEADER ************/
-
 .student-name {
 	font-size: 28px;
 	color: goldenrod;
@@ -49,8 +45,9 @@ a:hover {
 	margin-top: .5em;
 	list-style-type: none;
 	background-color: white;
-}
 
+
+}
 .main-header {
 	margin: 4em 1em;
 }
@@ -74,8 +71,8 @@ a:hover {
 }
 
 .container {
-	padding: 0 1.25em;
-	margin: 0;
+padding: 0 1.25em;
+margin: 0;
 }
 
 img {
@@ -84,28 +81,30 @@ img {
 	box-shadow: 10px 10px 10px #000;
 }
 
+
+
 /************   FOOTER  **********/
 
 footer {
 	border-top: solid 1px gray;
 }
-
  .signiture {
  	display: inline-block;
  	float: left;
  	padding-left: 1em;
-}
+ }
 
  .top {
  	display: inline-block;
  	float: right;
  	padding-right: 1em;
  	
-}
+ }
 
  .no-mobile {
  	display: none;
-}
+ }
+
 
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -113,14 +112,16 @@ footer {
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!      
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
+
+
 /********************************** 
              TABLET SIZE  
 ************************************/
 
 @media screen and (min-width: 768px) {
 
-/************ 	TABLET: NAVIGATION AND HEADER ************/
 
+/************ 	TABLET: NAVIGATION AND HEADER ************/
 .main-nav {
 	text-align: center;
 	margin: 2em;
@@ -132,11 +133,16 @@ footer {
 	margin: 0 1.5em;
 }
 
+.main-header {
+	
+
+}
 .profile-image {
  	width: 30%;
  	max-width: 250px;
  	margin-right: 2em;
- 	float: right; 	
+ 	float: right;
+ 	
 }
 
 .intro {
@@ -159,7 +165,6 @@ footer {
 	display: table;
 	clear: both;
 }
-
 .wrapper {
 	max-width: 963px;
 }
@@ -174,29 +179,32 @@ footer {
 	float: left;
 	padding: 1em .3em 0 1em;
 }
-
 .pic2, .pic4, .pic6 {
 	float: right;
 	padding: 1em 1em 0 .3em;
 }
 
-/************ TABLET: CONTACT AREA  **********/
+
+
+
+/************ TABLET: CONTACT ME AREA  **********/
 
 .contact {
 	margin: 4em 0;
-}
 
+}
 .contact p {
 	font-size: 22px;
 	padding: 0 4em;
+
 }
+
 
 /************  TABLET: FOOTER  **********/
 
 .top {
 	display: none;
 }
-
 .no-mobile {
 	display: inline-block;
 	float: right;
@@ -213,54 +221,74 @@ footer {
 footer {
 	margin-bottom: 1em;
 }
-
 }
 
-/*************************************
-	      DESKTOP SIZE 
-*************************************/
+	/*************************************
+	              DESKTOP SIZE 
+	 *************************************/
 
-@media screen and (min-width: 1024px) {
+	 	@media screen and (min-width: 1024px) {
 
-/************ DESKTOP: NAVIGATION AND HEADER ************/
 
-.main-nav {
-	display: inline;
-	float: right;
-	margin: 2em 2em 0 0;
-}
+	/************ DESKTOP: NAVIGATION AND HEADER ************/
 
-.student-name {
-	display: inline;
-	float: left;
-	margin-left: 3em;
-}
+		.main-nav {
+			display: inline;
+			float: right;
+			margin: 2em 2em 0 0;
+		}
+		.student-name {
+			display: inline;
+			float: left;
+			margin-left: 3em;
+		}
 
-.profile-image {
-	margin-right: 3em;
-}
+		.profile-image {
+			margin-right: 3em;
+		}
 
-.intro {
-	margin-left: 3em;
-}
-
+	    .intro {
+			margin-left: 3em;
+		}
 /************ DESKTOP: MAIN CONTENT  **********/
 
-.wrapper {
-	margin: 0 2em;
-	max-width: 100%;
-}
+		.wrapper {
+			margin: 0 2em;
+			max-width: 100%;
 
-.container {
-	max-width: 30%;
-	float: none;
-	display: inline-block;
-	position: relative;
-	vertical-align: middle;
-	margin: .5em;
-	padding: 0;
-}
+
+		}
+		.container {
+		max-width: 30%;
+		float: none;
+		display: inline-block;
+		position: relative;
+		vertical-align: middle;
+		margin: .5em;
+		padding: 0;
+
+		}
 
 /************ DESKTOP: MAIN FOOTER  **********/
 		
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
