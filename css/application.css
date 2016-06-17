@@ -1,0 +1,213 @@
+/******Tablet 768px********/
+/******Desktop 1024px********/
+/***** Base Styles *****/
+/****************   GLOBAL LAYOUT  *************/
+* {
+  box-sizing: border-box; }
+
+body {
+  background-color: #c0c0c0;
+  text-align: center;
+  margin: 0; }
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both; }
+
+/************ TEXT STYLES	************/
+/************   LINK STYLES   **************/
+a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer; }
+a:hover {
+  color: #878787; }
+
+h1, h2, h3, p, li, .signature {
+  font-family: 'Orbitron', sans-serif; }
+
+/************   FOOTER  **********/
+@media (min-width: 768px) {
+  .contact {
+    margin: 4em 0; } }
+@media (min-width: 768px) {
+  .contact p {
+    font-size: 22px;
+    padding: 0 4em; } }
+
+footer {
+  border-top: solid 1px gray; }
+  @media (min-width: 768px) {
+    footer {
+      margin-bottom: 1em; } }
+
+.signature {
+  display: inline-block;
+  float: left;
+  padding-left: 1em; }
+
+.top {
+  display: inline-block;
+  float: right;
+  padding-right: 1em; }
+  @media (min-width: 768px) {
+    .top {
+      display: none; } }
+
+.no-mobile {
+  display: none; }
+  @media (min-width: 768px) {
+    .no-mobile {
+      display: inline-block;
+      float: right; } }
+@media (min-width: 768px) {
+  .no-mobile li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 1em;
+    font-size: 18px;
+    font-weight: 700; } }
+
+/************   MAIN CONTENT  **********/
+.main-content {
+  background-color: #fff; }
+  @media (min-width: 1024px) {
+    .main-content {
+      background-color: #c0c0c0; } }
+
+.wrapper {
+  background: white;
+  max-width: 100%;
+  padding: 3em .5em 2em .5em; }
+  @media (min-width: 768px) {
+    .wrapper {
+      margin: 0 2.5em; } }
+  @media (min-width: 1024px) {
+    .wrapper {
+      margin: 0 2em;
+      max-width: 100%;
+      box-shadow: 10px 10px 10px #000; } }
+
+.container {
+  padding: 0 1.25em;
+  margin: 0; }
+  @media (min-width: 768px) {
+    .container {
+      width: 50%;
+      display: inline-block;
+      float: left;
+      vertical-align: top; } }
+  @media (min-width: 1024px) {
+    .container {
+      max-width: 30%;
+      float: none;
+      display: inline-block;
+      position: relative;
+      margin: .5em;
+      padding: 0; } }
+
+@includ tabletSize {
+  .pic1, .pic3, .pic5 {
+    padding: 1em .5em 0 1em; } }
+@includ tabletSize {
+  .pic2, .pic4, .pic6 {
+    padding: 1em 1em 0 .5em; } }
+img {
+  max-width: 100%;
+  border-radius: 2em; }
+
+/************ 	NAVIGATION AND HEADER ************/
+.student-name {
+  font-size: 28px;
+  color: goldenrod;
+  display: inline-block; }
+  @media (min-width: 1024px) {
+    .student-name {
+      float: left;
+      margin-left: 3em; } }
+
+.main-nav {
+  padding: 0;
+  margin: 0;
+  display: none; }
+  @media (min-width: 768px) {
+    .main-nav {
+      display: initial;
+      text-align: center;
+      margin: 2em; } }
+  @media (min-width: 1024px) {
+    .main-nav {
+      text-align: center;
+      margin: 2em;
+      display: inline-block; } }
+.main-nav li {
+  font-weight: 700;
+  font-size: 18px;
+  padding: .75em;
+  margin-top: .5em;
+  list-style-type: none;
+  background-color: white; }
+  @media (min-width: 768px) {
+    .main-nav li {
+      display: inline;
+      background: none;
+      margin: 0 1.5em; } }
+
+.main-header {
+  margin: 4em 1em; }
+
+.profile-image {
+  width: 60%;
+  max-width: 300px;
+  text-align: center;
+  margin: 0;
+  border-radius: 2em; }
+  @media (min-width: 768px) {
+    .profile-image {
+      width: 30%;
+      max-width: 250px;
+      margin-right: 2em;
+      float: right; } }
+  @media (min-width: 1024px) {
+    .profile-image {
+      margin-right: 4em; } }
+
+@inlude tabletSize {
+  .intro {
+    max-width: 45%; } }
+@media (min-width: 1024px) {
+  .intro {
+    margin-left: 3em; } }
+@inlude tabletSize {
+  .intro p {
+    float: left;
+    display: inline-block;
+    font-size: 20px;
+    text-align: left; } }
+.quote {
+  color: #daa520; }
+
+.student-name, .quote, h3 {
+  text-shadow: 2px 2px 2px #000; }
+
+img, .profile-image, .line {
+  box-shadow: 10px 10px 10px #000; }
+
+.menu {
+  margin-left: 5%;
+  cursor: pointer; }
+
+.line {
+  border-bottom: 4px solid;
+  color: #daa520;
+  width: 35px;
+  margin-bottom: 6px; }
+  @media (min-width: 768px) {
+    .line {
+      display: none; } }
+
+h3 {
+  color: #daa520; }
+
+/*# sourceMappingURL=application.css.map */

@@ -1,0 +1,42 @@
+
+/***** Base Styles *****/
+
+
+/****************   GLOBAL LAYOUT  *************/
+* { 
+  	box-sizing: border-box;
+}
+
+body {
+	background-color:  $body-color ;
+	text-align: center;
+	margin: 0;	
+}
+
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+/************ TEXT STYLES	************/
+
+h1, h2, h3, p, li,  .signature {
+	@extend %mainFont;
+}
+
+
+
+/************   LINK STYLES   **************/
+
+
+a{
+	&{
+		text-decoration: none;
+		color: black;
+		cursor: pointer;
+}
+	&:hover {
+		color: $hover-color;
+}
+
+}

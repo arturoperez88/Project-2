@@ -1,0 +1,67 @@
+/************   MAIN CONTENT  **********/
+
+.main-content {
+	background-color: $background-color;
+@include desktopSize{
+	background-color: $body-color;
+}
+
+}
+//////////////////////////////////
+.wrapper {
+	background: white;
+	max-width: 100%;
+	padding: 3em .5em 2em .5em;
+
+  @include tabletSize {
+	margin: 0 2.5em;
+  }	
+
+ @include desktopSize {
+    margin: 0 2em;
+	max-width: 100%;
+	box-shadow: 10px 10px 10px #000;
+ }
+
+}
+////////////////////////////////
+.container {
+	padding: 0 1.25em;
+	margin: 0;
+
+ @include tabletSize {
+	width: 50%;
+	display: inline-block;
+	float: left;
+	vertical-align: top;
+  }	
+
+ @include desktopSize {
+    max-width: 30%;
+	float: none;
+	display: inline-block;
+	position: relative;
+	margin: .5em;
+	padding: 0;
+ }
+}
+
+.pic1, .pic3, .pic5 {
+
+	@includ tabletSize{
+	padding: 1em .5em 0 1em;
+  }
+}
+
+.pic2, .pic4, .pic6 {
+	
+	@includ tabletSize{
+	padding: 1em 1em 0 .5em;
+  }
+}
+////////////////////////////////
+img {
+	max-width: 100%;
+	border-radius: 2em;
+	@extend %boxShadow;
+}

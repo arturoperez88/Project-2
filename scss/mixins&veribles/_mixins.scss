@@ -1,0 +1,26 @@
+
+ /******Tablet 768px********/
+
+@mixin tabletSize {
+
+  @media(min-width: #{$brk-tablet}) {
+    @content;
+  }
+}
+
+
+@mixin brkMenu {
+
+  @media(max-width: #{$brk-tablet}) {
+    @content;
+  }
+}
+
+ /******Desktop 1024px********/
+
+@mixin desktopSize {
+  @media (min-width: #{$brk-desktop}) {
+    @content;
+  }
+}
+

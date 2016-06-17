@@ -1,0 +1,76 @@
+/************   FOOTER  **********/
+
+.contact {
+	
+	& {
+
+		@include tabletSize{
+		margin: 4em 0;
+	 }
+  }
+
+	& p {
+		@include tabletSize {
+		font-size: 22px;
+		padding: 0 4em;
+	}
+}
+
+}
+////////////////////////////////
+
+
+footer {
+	border-top: solid 1px gray;
+
+	@include tabletSize {
+		margin-bottom: 1em;
+	}
+}
+
+ .signature {
+ 	display: inline-block;
+ 	float: left;
+ 	padding-left: 1em;
+}
+
+ .top {
+ 	display: inline-block;
+ 	float: right;
+ 	padding-right: 1em;
+
+ @include tabletSize{
+ 	display: none;
+ 	}
+
+}
+
+ .no-mobile {
+
+ 	& {
+ 	display: none;
+
+ @include tabletSize{
+ 	display: inline-block;
+	float: right;
+ 	}
+ }
+ & li {
+ @include tabletSize {
+  	display: inline-block;
+	list-style-type: none;
+	margin: 1em;
+	font-size: 18px;
+	font-weight: 700;
+ 	}
+
+ }
+
+}
+
+
+
+
+
+
+
